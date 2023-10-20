@@ -21,7 +21,7 @@ interface UserStates {
 const initialStates: UserStates = {
   user: null,
   isAuthenticated: false,
-  premium: false,
+  premium: true,
   premiumCancelled: false,
   organization: false,
   orgAdmin: false,
